@@ -11,7 +11,8 @@ This app uses React Native v0.60 due to instability during the gradle build step
 1. Clone this repository.
 2. Prepare your computer to develop with React Native on Android by following the official [guide](https://facebook.github.io/react-native/docs/getting-started). Stop just before the section titled "Running your React Native application".
 3. Generate the debug keystore by running this command in the android/app/ directory: `keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000` ([reference](https://github.com/facebook/react-native/issues/25629#issuecomment-511209583))
-3. Run `npm install && npm run android` in your terminal. This should install the app on the device.
+4. Run `npm install && npm run android` in your terminal. This should install the app on the device.
+5. If metro bundler chokes, you may have to force close and restart the app and/or restart metro bundler with `npm start`.
 
 ## Develop
 
