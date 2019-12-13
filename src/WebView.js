@@ -10,7 +10,7 @@ const WebView = forwardRef(({ style, ...other }, ref) => {
         injectJS: (jsString) => {
             UIManager.dispatchViewManagerCommand(
                 findNodeHandle(webViewRef.current),
-                'INJECT_JAVASCRIPT',
+                1,
                 [jsString],
             )
         },
