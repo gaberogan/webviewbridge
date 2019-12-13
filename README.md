@@ -16,7 +16,7 @@ This app uses React Native v0.60 due to instability during the gradle build step
 
 The project uses WebPack to bundle the web app. I've committed a prebuilt bundle to make it easier to get started. To make changes to the web app, run `npm run web`, make changes, and re-build the app. If this were a full-scale project, I would add a dev mode so that the WebView would load a URL on the local network and not require a re-build to see changes.
 
-The first time you open the app in Android Studio, be sure to import it as a new Gradle project. From there you will be able to use intellisense.
+The first time you open the app in Android Studio, import it as a new Gradle project. From there you will be able to use intellisense.
 
 ## Screenshot (Android)
 
