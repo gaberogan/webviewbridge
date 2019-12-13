@@ -12,7 +12,7 @@ This app uses React Native v0.60 due to instability during the gradle build step
 
 # Instructions
 
-1. Prepare your computer to develop with React Native on Android by following the official (guide)[https://facebook.github.io/react-native/docs/getting-started]. Stop just before the section titled "Running your React Native application".
+1. Prepare your computer to develop with React Native on Android by following the official [guide](https://facebook.github.io/react-native/docs/getting-started). Stop just before the section titled "Running your React Native application".
 2. Clone this repository.
 3. Run `npm install && npm run android` in your terminal. This should install the app on the device.
 
